@@ -31,7 +31,7 @@
 	</beans:bean>
 
 	<!-- component scan -->
-	<context:component-scan base-package="me.codewid.portfolio" />
+	<context:component-scan base-package="me.codewid.portfolio.controller" />
 
 	<!-- Spring Validation -->
 	<beans:bean id="messageSource"

@@ -43,7 +43,7 @@
 	<tx:annotation-driven transaction-manager="transactionManager" />
 
 	<!-- 컨트롤러를 제외한 컴포넌트 스캔 -->
-	<context:component-scan base-package="me.codewid.portfolio">
+	<context:component-scan base-package="me.codewid.portfolio.controller">
 		<context:exclude-filter type="annotation"
 			expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>
